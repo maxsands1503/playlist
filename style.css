@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "myFirstFont";
+  src: url("fonts/AvenirNextLTPro-Regular.otf");
+}
+body{
+  font-family: "myFirstFont";
+  background-color: #EEEEEE;
+}
+header{
+  height: 5vh;
+  width: 100vw;
+  background-color: #9B9B8C;
+  max-height: 7vh;
+  display: block;
+  padding-bottom: 0;
+  color: #EEEEEE;
+
+}
+#header2{
+  height: 10vh;
+  padding: 5vh;
+}
+#header2 h2{
+  margin-top: 7vh;
+}
+#contain{
+  /*display: inline-block;*/
+  float: right;
+  width: 50vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  padding-top: 2vh;
+  margin-top: 0;
+}
+#trainTracks{
+  opacity: 0.19;
+  position: absolute;
+  z-index: -1;
+  float: right;
+  width: 50vw;
+  height: 97vh;
+  padding: 0;
+  margin-top: -25px;
+}
+#image1Box{
+  width: 25vw;
+  height: 30vh;
+  margin-left: 25%;
+
+}
+#image1{
+  height: 28vh;
+  width: 23vw;
+  margin-left: 5%;
+  padding-top:1%;
+}
+#binni{
+  color: #4C0066;
+  font-size: 56px;
+  text-align: center;
+}
+#buttoni{
+  width: 13vw;
+  height: 7vh;
+  background-color: #353526;
+  color: #EEEEEE;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 24px;
+  margin-left: 4vw;
+}
+#image2Box{
+  width: 25vw;
+  height: 30vh;
+  margin-left: 25%;
+}
+#image2{
+  height: 28vh;
+  width: 23vw;
+  margin-left: 5%;
+  padding-top:1%;
+}
+#image3Box{
+  width: 25vw;
+  height: 30vh;
+  margin-left: 25%;
+}
+#image3{
+  height: 28vh;
+  width: 23vw;
+  margin-left: 5%;
+  padding-top:1%;
+
+}
+#left-side{
+  display: inline-block;
+  background-color: #EEEEEE;
+  width: 50vw;
+}
+.right-side{
+  margin-top: 0;
+  display: inline-block;
+  float: right;
+  height: 93vh;
+  width: 50vw;
+}
+section{
+  padding: 40vh 20vh 40vh 30vh;
+}
+footer{
+  margin-top: 0;
+  height: 7vh;
+  width: 100vw;
+  background-color: #9B9B8C;
+}
+#albumCovers{
+  overflow: auto;
+  overflow-x: scroll;
+  height: 30vh;
+  width: 80vw;
+  display: inline-block;
+  margin-left: 10%;
+  white-space: nowrap;
+
+}
+#catcher{
+  width: 80vw;
+  height: 40vh;
+  border: solid black 3px;
+  margin: 3% 0 1% 10%;
+}
+#albumCovers img{
+  display: inline-block;
+}
+.alexDidThis {
+  width: 28vh;
+  height: 28vh;
+  padding: 1% 5% 1% 5%;
+}
+#buttons{
+  margin: 1% 0 1% 10%;
+}
+.button{
+  width: 13vw;
+  height: 7vh;
+  background-color: #353526;
+  color: #EEEEEE;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 3px;
+}
+#copy{
+  padding-top: 15px;
+  padding-left: 10px;
+  color: #EEEEEE;
+  font-size: 24px;
+}
